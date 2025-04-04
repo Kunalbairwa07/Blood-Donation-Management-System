@@ -1,0 +1,47 @@
+<!-- pages/manage-requests.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manage Requests - Blood Donation System</title>
+  <link rel="stylesheet" href="../css/manage-requests.css">
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="dashboard.html">Dashboard</a></li>
+      <li><a href="admin.html">Admin Panel</a></li>
+      <li><a href="manage-donors.html">Manage Donors</a></li>
+      <li><a href="logout.html">Logout</a></li>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="donate.html">Donate Blood</a></li>
+      <li><a href="request.html">Request Blood</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+      <li><a href="login.html">Login</a></li>
+      <li><a href="signup.html">Sign Up</a></li>
+    </ul>
+  </nav>
+
+  <div class="manage-requests-container">
+    <h1>Manage Blood Requests</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Requester Name</th>
+          <th>Blood Group</th>
+          <th>Contact</th>
+          <th>Status</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody id="request-list">
+        <!-- Request data will be injected here by JS -->
+      </tbody>
+    </table>
+  </div>
+
+  <script src="../js/manage-requests.js"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!-- pages/admin-dashboard.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Dashboard - Blood Donation System</title>
+  <link rel="stylesheet" href="../css/admin-dashboard.css">
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="dashboard.html">Dashboard</a></li>
+      <li><a href="manage-donors.html">Manage Donors</a></li>
+      <li><a href="manage-requests.html">Manage Requests</a></li>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="logout.html">Logout</a></li>
+    </ul>
+  </nav>
+
+  <div class="dashboard-container">
+    <h1>Welcome to Admin Dashboard</h1>
+    <div class="stats">
+      <div class="card">
+        <h3>Total Donors</h3>
+        <p id="total-donors">0</p>
+      </div>
+      <div class="card">
+        <h3>Total Requests</h3>
+        <p id="total-requests">0</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="../js/admin-dashboard.js"></script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffe6e6;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+    background-color: #d9534f;
+    padding: 10px 0;
+  }
+  
+  nav li {
+    list-style: none;
+    margin: 0 15px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .dashboard-container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .stats {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+  }
+  
+  .card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 150px;
+  }
+  
+  h1 {
+    color: #d9534f;
+  }
+  
+  h3 {
+    margin: 0;
+  }

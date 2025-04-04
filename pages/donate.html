@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Donate Blood - Blood Donation Management System</title>
+  <link rel="stylesheet" href="../css/donate.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+          <a href="index.html" class="logo">BloodLife</a>
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="donate.html">Donate Blood</a></li>
+            <li><a href="request.html">Request Blood</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="signup.html">Sign Up</a></li>
+          </ul>
+        </div>
+      </nav>
+      
+  <!-- Donate Blood Form Section -->
+  <section class="donate">
+    <div class="container">
+      <h1>Become a Blood Donor</h1>
+      <p>Your donation can save lives. Fill out the form below to register as a donor.</p>
+      <form id="donate-form">
+        <input type="text" id="name" placeholder="Full Name" required>
+        <input type="email" id="email" placeholder="Email" required>
+        <input type="text" id="bloodGroup" placeholder="Blood Group (e.g., A+)" required>
+        <input type="tel" id="contact" placeholder="Contact Number" required>
+        <button type="submit">Register as Donor</button>
+      </form>
+
+      <!-- ✅ Donor List Section -->
+      <h2>Registered Donors</h2>
+      <ul id="donor-list"></ul>
+      
+    </div>
+  </section>
+
+  <script src="../js/donate.js"></script>
+</body>
+</html>

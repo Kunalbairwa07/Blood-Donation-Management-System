@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffe6e6;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+    background-color: #d9534f;
+    padding: 10px 0;
+  }
+  
+  nav li {
+    list-style: none;
+    margin: 0 15px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .dashboard-container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  h1 {
+    color: #d9534f;
+  }
+  
+  .dashboard-options button {
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .dashboard-options button:hover {
+    background-color: #c9302c;
+  }
